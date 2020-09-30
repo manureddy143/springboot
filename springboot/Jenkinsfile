@@ -1,8 +1,5 @@
 pipeline {
-  environment {
-    PROJECT = "my-project-suri-279708"
-    APP_NAME = "Guru Manohar Reddy"
-  }  
+ 
     agent any
     tools { 
         maven 'jenkins-maven'  
