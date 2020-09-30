@@ -1,12 +1,7 @@
 pipeline {
   environment {
     PROJECT = "my-project-suri-279708"
-    APP_NAME = "sample"
-    FE_SVC_NAME = "${APP_NAME}"
-    CLUSTER = "cluster-1"
-    CLUSTER_ZONE = "us-central1-c"
-    JENKINS_CRED = "${PROJECT}"
-    gcloud = credentials('service_account')
+    APP_NAME = "Guru Manohar Reddy"
   }  
     agent any
     tools { 
