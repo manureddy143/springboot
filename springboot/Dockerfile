@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk8:ubi
+FROM adoptopenjdk/openjdk11:ubi
 VOLUME /tmp
 EXPOSE 8080
 COPY ./demo-0.0.1-SNAPSHOT.jar /demo-0.0.1-SNAPSHOT.jar
